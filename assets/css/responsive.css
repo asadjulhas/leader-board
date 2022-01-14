@@ -1,4 +1,4 @@
-@media only screen and (min-width: 767px) and (max-width: 900px) { 
+@media only screen and (min-width: 767px) and (max-width: 845px) { 
 
   .header_area {
     padding: 0 20px;
@@ -15,6 +15,13 @@
   .single_blog h3 {
     font-size: 14px;
     margin-top: 12px;
+  }
+  .course_details img {
+    width: 74.6px;
+    height: 11.81px;
+  }
+  .course_duration {
+    margin-left: 2%;
   }
 }
 
@@ -51,6 +58,14 @@
     width: 74.6px;
     height: 11.81px;
   }
+  .single_blog h3 {
+    font-size: 14px;
+    margin-left: 12px;
+    line-height: 20px;
+  }
+  .single_blog h3 p {
+    font-size: 14px;
+  }
 
 
 
@@ -63,6 +78,15 @@
 
   .players, .courses_area {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .course_duration {
+    display: block;
+    width: 90%;
+    margin-left: 0;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 9px;
+    padding-bottom: 9px;
   }
   
 }
